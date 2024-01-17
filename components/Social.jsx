@@ -1,18 +1,18 @@
-import { gitIcon } from "./icons/Git"
-import { twitterIcon } from "./icons/Twitter"
-import { figmaIcon } from "./icons/Figma"
+import { GitIcon } from "./icons/Git"
+import { TwitterIcon } from "./icons/Twitter"
+import { FigmaIcon } from "./icons/Figma"
 
-export function socialIcon() {
+export function SocialIcon() {
     return (
         <div className="flex">
             <div className="p-1.5">
-                <gitIcon />
+                <GitIcon />
             </div>
             <div className="p-1.5">
-                <twitterIcon />
+                <TwitterIcon />
             </div>
             <div className="p-1.5">
-                <figmaIcon />
+                <FigmaIcon />
             </div>
         </div>
     )

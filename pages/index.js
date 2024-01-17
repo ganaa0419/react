@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header"
 import { Chip } from "@/components/Chip"
-import { socialIcon } from "@/components/Social";
-import { locationIcon } from "@/components/icons/Location";
+import { SocialIcon } from "@/components/Social";
+import { LocationIcon } from "@/components/icons/Location";
 
 export default function Home() {
   return (
@@ -27,12 +27,12 @@ export default function Home() {
             </p>
 
             <div>
-              <locationIcon />
+              <LocationIcon />
               <p>Ahmedabad, India</p> 
             </div>
 
             <div>
-              <socialIcon />
+              <SocialIcon />
             </div>
             
           </div>
