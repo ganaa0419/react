@@ -1,15 +1,10 @@
 import { Logo } from "@/components/icons/Logo";
 import { Menu } from "@/components/icons/Menu";
 import { Light } from "@/components/icons/Light";
-import { MenuItems } from "@/components/MenuItems"
+import { MainMenu } from "@/components/MainMenu";
+import { menuItems } from "./Data/MenuItems";
 
 export function Header() {
-    const menuItems = [
-        { label: "About" , link: "/about" },
-        { label: "Work" , link: "/work" },
-        { label: "Testimonials" , link: "/testimonials" },
-        { label: "Contact" , link: "/contact" },
-    ]
 
     return (
         <div>
@@ -20,7 +15,7 @@ export function Header() {
                 </div>
                 <div className="md:flex sm:hidden gap-6 items-center text-gray-600">
                     
-                    <MenuItems items = {menuItems}/>
+                    <MainMenu items = {menuItems}/>
 
                     <p className="text-gray-100">|</p>
                     <div className="flex gap-4 items-center">
