@@ -1,9 +1,11 @@
 import { SkillsList } from "./Data/SkillsList";
 
-export function Skills({ SkillsList }) {
+export function Skills() {
     return (
       <div>
-        {/* <img src={SkillsList[0].Image}>{SkillsList[0].Image}</img> */}
+        <div>
+          <img src={SkillsList[0].Image}/>
+        </div>
         <p>{SkillsList[0].Name}</p>
       </div>
     );

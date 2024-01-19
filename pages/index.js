@@ -6,6 +6,8 @@ import { GreenDot } from "@/components/icons/GreenDot";
 import { Intro } from "@/components/Data/Intro";
 import { AboutMe } from "@/components/Data/AboutMe";
 import { Skills } from "@/components/Skills";
+import { Footer } from "@/components/Footer";
+import { Description } from "@/components/Description";
 
 export default function Home() {
   return (
@@ -50,7 +52,7 @@ export default function Home() {
             </div>
             <div className="flex flex-row gap-2 text-gray-600">
               <div className="p-2">
-                <GreenDot />
+                <GreenDot />\
               </div>
               <p>Available for new projects</p>
             </div>
@@ -63,6 +65,7 @@ export default function Home() {
 
       <div className="sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
         <Chip label="About me" />
+        <Description label="The skills, tools and technologies I am really good at:" />
         <div className="md:flex gap-12">
           <div className="relative mb-12 mx-auto w-72 mt-6">
             <img
@@ -81,16 +84,24 @@ export default function Home() {
       </div>
       <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
         <Chip label="Skills" />
+        <Description label="The skills, tools and technologies I am really good at:" />
+        <p className="text-gray-600">The skills, tools and technologies I am really good at:</p>
         <Skills />
       </div>
       <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
         <Chip label="Experience" />
+        <Description label="Here is a quick summary of my most recent experiences:" />
       </div>
       <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
         <Chip label="Work" />
+        <Description label="Some of the noteworthy projects I have built:" />
       </div>
       <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
         <Chip label="Get in touch" />
+        <Skills />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
