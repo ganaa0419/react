@@ -10,15 +10,12 @@ export function Header() {
         <div>
             <div className="flex justify-between sm:p-4 md:px-20 md:py-4" >
                 <Logo />
-                <div className="p-1.5 sm:flex md:hidden">
-                    <Menu />
-                </div>
-                <div className="md:flex sm:hidden gap-6 items-center text-gray-600">
+                <div className="md:flex gap-6 items-center text-gray-600">
                     
                     <MainMenu items = {menuItems}/>
 
-                    <p className="text-gray-100">|</p>
-                    <div className="flex gap-4 items-center">
+                    <p className="text-gray-100 hidden mf:block">|</p>
+                    <div className="md:flex gap-4 items-center hidden">
                         <div className="p=1.5">
                             <Light />
                         </div>
