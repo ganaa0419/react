@@ -5,9 +5,12 @@ import { LocationIcon } from "@/components/icons/Location";
 import { GreenDot } from "@/components/icons/GreenDot";
 import { Intro } from "@/components/Data/Intro";
 import { AboutMe } from "@/components/Data/AboutMe";
-import { Skills } from "@/components/Skills";
+import { SkillsSection } from "@/components/SkillsSection";
 import { Footer } from "@/components/Footer";
 import { Description } from "@/components/Description";
+import { ExperienceSection } from "@/components/ExperienceSection";
+import { WorkSection } from "@/components/WorkSection";
+import { Contact } from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -82,23 +85,24 @@ export default function Home() {
           <AboutMe />
         </div>
       </div>
-      <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
+      <div className="sm:px-4 sm:py-16 md:px-20 md:py-24">
         <Chip label="Skills" />
         <Description label="The skills, tools and technologies I am really good at:" />
-        <p className="text-gray-600">The skills, tools and technologies I am really good at:</p>
-        <Skills />
+        <SkillsSection />
       </div>
-      <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
+      <div className="sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
         <Chip label="Experience" />
         <Description label="Here is a quick summary of my most recent experiences:" />
+        <ExperienceSection />
       </div>
-      <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
+      <div className="sm:px-4 sm:py-16 md:px-20 md:py-24">
         <Chip label="Work" />
         <Description label="Some of the noteworthy projects I have built:" />
+        <WorkSection />
       </div>
-      <div className="border border-solid border-black sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
+      <div className="sm:px-4 sm:py-16 md:px-20 md:py-24 bg-gray-50">
         <Chip label="Get in touch" />
-        <Skills />
+        <Contact />
       </div>
       <div>
         <Footer />

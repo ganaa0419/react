@@ -1,4 +1,4 @@
-export function Description(props) {
+export function Title(props) {
     const { label } = props;
     
     return (

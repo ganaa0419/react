@@ -1,7 +1,18 @@
-// let newImage = new SkillsList.Image();
-// newImage.src = '/public/image/icon-javascript.svg';
-
-export const SkillsList = [
+export const skills = [
     { Name: "JavaScript" , Image: '/image/icon-javascript.svg' },
     { Name: "TypeScript" , Image: '/image/icon-typescript.svg' },
-]
+    { Name: "React" , Image: '/image/icon-react.svg' },
+    { Name: "Next.js" , Image: '/image/icon-nextjs.svg' },
+    { Name: "Node.js" , Image: '/image/icon-nodejs.svg' },
+    { Name: "Express.js" , Image: '/image/icon-express.svg' },
+    { Name: "Nest.js" , Image: '/image/icon-nest.svg' },
+    { Name: "Socket.io" , Image: '/image/icon-socket.svg' },
+    { Name: "PostgreSQL" , Image: '/image/icon-postgresql.svg' },
+    { Name: "MongoDB" , Image: '/image/icon-mongodb.svg' },
+    { Name: "Sass/Scss" , Image: '/image/icon-sass.svg' },
+    { Name: "Tailwindcss" , Image: '/image/icon-tailwindcss.svg' },
+    { Name: "Figma" , Image: '/image/icon-figma.svg' },
+    { Name: "Cypress" , Image: '/image/icon-cypress.svg' },
+    { Name: "Storybook" , Image: '/image/icon-storybook.svg' },
+    { Name: "Git" , Image: '/image/icon-git.svg' },
+];
