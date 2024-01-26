@@ -15,9 +15,9 @@ export function ExperienceSection() {
             <Description label={experience.date} />
             <Title label={experience.position} />
             <ul className="text-gray-600 list-disc ml-7">
-                {experience.tasks.map((task) => (
-                    <li>{task}</li>
-                ))}
+              {experience.tasks.map((task) => (
+                <li>{task}</li>
+              ))}
             </ul>
           </div>
         ))}
