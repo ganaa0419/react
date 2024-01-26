@@ -15,9 +15,15 @@ export function MainMenu({ items }) {
           </a>
         ))}
       </div>
-      {/* <MobileMenu /> */}
+      <MobileMenu />
     </>
   );
+}
+
+function MobileMenu() {
+  return(
+    <div>hi</div>
+  )
 }
 
 // function MobileMenu() {

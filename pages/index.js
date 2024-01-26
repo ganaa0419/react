@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <div className="flex flex-row gap-2 text-gray-600">
               <div className="p-2">
-                <GreenDot />\
+                <GreenDot />
               </div>
               <p>Available for new projects</p>
             </div>
